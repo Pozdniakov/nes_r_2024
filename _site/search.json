@@ -1,0 +1,121 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Основная информация",
+    "section": "",
+    "text": "Здесь будет основная информация о курсе."
+  },
+  {
+    "objectID": "index.html#система-оценок",
+    "href": "index.html#система-оценок",
+    "title": "Основная информация",
+    "section": "Система оценок",
+    "text": "Система оценок\nОценка по курсу состоит из нескольких частей:\nТест на лекции (на 20 минут, 20 баллов) 1 домашнее задание (20 баллов, срок выполнения каждой в районе 2х недель) 5 лекций, 5 семинаров (по 1 баллу за активность)\n\nодно бонусное домашнее задание на дополнительные + 5 баллов\n\nИтого: максимум 50 баллов + 5 доп баллов"
+  },
+  {
+    "objectID": "index.html#подготовка-к-курсу-установка-r-и-rstudio",
+    "href": "index.html#подготовка-к-курсу-установка-r-и-rstudio",
+    "title": "Основная информация",
+    "section": "Подготовка к курсу: установка R и RStudio",
+    "text": "Подготовка к курсу: установка R и RStudio\nДля работы с R необходимо его сначала скачать и установить.\n\nR\n\nна Windows, найдите большую кнопку Download R (номер версии) for Windows.\nна Mac, если маку меньше, чем 5 лет, то смело ставьте *.pkg файл с последней версией. Если старше, то поищите на той же странице версию для вашей системы.\nна Linux, также можно добавить зеркало и установить из командной строки:\n\n\n\nsudo apt-get install r-cran-base\nПосле установки R необходимо скачать и установить RStudio:\n\nRStudio Desktop\n\nЕсли вдруг что-то установить не получается (или же вы просто не хотите устанавливать на компьютер лишние программы), то можно работать в облаке, делая все то же самое в веб-браузере:\n\nPosit Cloud (ранее – RStudio Cloud)"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "Преподаватель: Поздняков Иван Сергеевич"
+  },
+  {
+    "objectID": "index.html#расписание",
+    "href": "index.html#расписание",
+    "title": "Основная информация",
+    "section": "Расписание",
+    "text": "Расписание\nПлан курса\n\nПлан курса\n\n\n\n\n\n\n\nЛекция\nСеминар (группа 1)\nСеминар (группа 2)\n\n\n\n\n12.04.2024 9:30-10:50\n16.04.2024 13:00-14:20\n18.04.2024 12:30-13:50\n\n\n19.04.2024 9:30-10:50\n23.04.2024 13:00-14:20\n18.04.2024 12:30-13:50\n\n\n26.04.2024 9:30-10:50\n\n\n\n\n17.05.2024 9:30-10:50\n\n\n\n\n24.05.2024 9:30-10:50\n\n\n\n\n???"
+  },
+  {
+    "objectID": "materials.html",
+    "href": "materials.html",
+    "title": "Материалы курса",
+    "section": "",
+    "text": "Знакомство\nПочему R\nПлан модуля\nR как калькулятор, операторы\nФункции\nПрисвоение переменных\nВекторы\nВекторизация\nРесайклинг"
+  },
+  {
+    "objectID": "materials.html#sec-s1",
+    "href": "materials.html#sec-s1",
+    "title": "Материалы курса",
+    "section": "Семинар 1: Введение в R и RStudio",
+    "text": "Семинар 1: Введение в R и RStudio\n\nРешение заданий на векторизацию и ресайклинг"
+  },
+  {
+    "objectID": "materials.html#sec-l2",
+    "href": "materials.html#sec-l2",
+    "title": "Материалы курса",
+    "section": "Лекция 2: Сложные структуры",
+    "text": "Лекция 2: Сложные структуры\n\nNA\nЛогические векторы\nМатрицы\nСписки\nДатафреймы"
+  },
+  {
+    "objectID": "materials.html#sec-s2",
+    "href": "materials.html#sec-s2",
+    "title": "Материалы курса",
+    "section": "Семинар 2: Сложные структуры",
+    "text": "Семинар 2: Сложные структуры\n\nЗадания на матрицы, списки и датафреймы"
+  },
+  {
+    "objectID": "materials.html#sec-l3",
+    "href": "materials.html#sec-l3",
+    "title": "Материалы курса",
+    "section": "Лекция 3: Установка пакетов и импорт данных, tidyverse",
+    "text": "Лекция 3: Установка пакетов и импорт данных, tidyverse\n\nустановка пакетов\nимпорт данных\n{skimr}\nRStudio проекты\ndata.table vs tidyverse"
+  },
+  {
+    "objectID": "materials.html#sec-s3",
+    "href": "materials.html#sec-s3",
+    "title": "Материалы курса",
+    "section": "Семинар 3: Введение в tidyverse",
+    "text": "Семинар 3: Введение в tidyverse\n\ntidyverse intro: select(), slice(), filter(), mutate()"
+  },
+  {
+    "objectID": "materials.html#sec-l4",
+    "href": "materials.html#sec-l4",
+    "title": "Материалы курса",
+    "section": "Лекция 4: Продвинутый tidyverse",
+    "text": "Лекция 4: Продвинутый tidyverse\n\ntidyverse: аггрегация, *_join(), nested columns, across(), {purrr}"
+  },
+  {
+    "objectID": "materials.html#sec-s4",
+    "href": "materials.html#sec-s4",
+    "title": "Материалы курса",
+    "section": "Семинар 4: Продвинутый tidyverse",
+    "text": "Семинар 4: Продвинутый tidyverse\n\nзадания на tidyverse: аггрегация, join, nested columns, across()"
+  },
+  {
+    "objectID": "materials.html#sec-l5",
+    "href": "materials.html#sec-l5",
+    "title": "Материалы курса",
+    "section": "Лекция 5: {ggplot2}",
+    "text": "Лекция 5: {ggplot2}\n\nГрамматика графики\nЗачем нужна грамматика\nКомпоненты слоя: данные, геометрия, отображение эстетики, статистика, подгонка позиции\nШкалы (scales)\nКоординатные системы\nФасетки\nТемы"
+  },
+  {
+    "objectID": "materials.html#sec-s5",
+    "href": "materials.html#sec-s5",
+    "title": "Материалы курса",
+    "section": "Семинар 5: {ggplot2}",
+    "text": "Семинар 5: {ggplot2}\n\nСтроим графики"
+  },
+  {
+    "objectID": "materials.html#sec-l6",
+    "href": "materials.html#sec-l6",
+    "title": "Материалы курса",
+    "section": "Дополнительная лекция: Quarto",
+    "text": "Дополнительная лекция: Quarto\n\nQuarto"
+  },
+  {
+    "objectID": "materials.html#sec-s6",
+    "href": "materials.html#sec-s6",
+    "title": "Материалы курса",
+    "section": "Дополнительный семинар: Quarto / темы по запросу",
+    "text": "Дополнительный семинар: Quarto / темы по запросу\n\nПрактика Quarto\nДополнительные темы по запросу"
+  }
+]
