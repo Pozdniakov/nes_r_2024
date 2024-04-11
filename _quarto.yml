@@ -1,0 +1,26 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Наука о данных: Блок по R"
+  open-graph:
+    locale: ru_RU
+    site-name: Наука о данных -- Блок по R
+  navbar:
+    left:
+      - href: index.qmd
+        text: Наука о данных -- R
+      - href: about.qmd
+        text: Преподаватель
+      - href: materials.qmd
+        text: Материалы курса
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+
+editor: visual
+
